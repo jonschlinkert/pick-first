@@ -1,0 +1,40 @@
+{
+  "name": "pick-first",
+  "description": "Return the first property on an object with a truthy value that matches the given object path or the first path in an array of object paths.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/pick-first",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/pick-first.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/pick-first/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/pick-first/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "get-value": "^1.1.4",
+    "is-plain-object": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
